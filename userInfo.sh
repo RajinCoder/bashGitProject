@@ -6,3 +6,6 @@ last
 
 echo "Reporting Current Running Processes"; echo
 ps auxw | grep "codio"
+
+echo "Reporting User Group IDs"; echo
+id
